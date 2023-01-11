@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.tictactoe-box{
+    height: auto;
+    border: 2px solid black ;
+    border-radius: 5px;
+    width: 70vh;
+    margin:20px auto;
+}
+.row1,.row2,.row3{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    flex:1;
+    height: 5rem;
+    width: 5rem;
+    font-size: 70px;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25vh;
+    height: 10vh;
+    margin: 20px auto;
+
+}
+.scoreboard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
